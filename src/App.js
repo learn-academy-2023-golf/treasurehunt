@@ -5,15 +5,15 @@ class App extends Component{
   constructor(props){
     super(props)
     this.state = {
-      squares: ["?", "?", "?", "?", "?", "?", "?", "?", "?"]
+      board: ["?", "?", "?", "?", "?", "?", "?", "?", "?"]
     }
   }
 
   render(){
     return(
-      <React.Fragment>
+      <>
         <h1>Treasure Hunt App</h1>
-      </React.Fragment>
+      </>
     )
   }
 }

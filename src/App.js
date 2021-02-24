@@ -12,7 +12,7 @@ class App extends Component{
   render(){
     return(
       <>
-        <h1>Treasure Hunt App</h1>
+        <h1>Treasure Hunt Game</h1>
       </>
     )
   }

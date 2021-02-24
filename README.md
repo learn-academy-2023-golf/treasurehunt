@@ -1,4 +1,4 @@
-# React Treasure Hunt
+# React Treasure Hunt Game
 
 ### Remember:
 - Pseudocode!!

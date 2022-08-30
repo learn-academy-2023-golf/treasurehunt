@@ -24,7 +24,7 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 - Consider how to handle a situation where the bomb and the treasure are at the same index.
 
-### 👩‍💻 Developer Stretch Challenges
+### 👩‍💻 Developer Stretch Goals
 
 - As a developer, I have a well commented application.
 - As a developer, I have well written README file with instructions on how to access my repository.

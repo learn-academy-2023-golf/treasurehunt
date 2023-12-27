@@ -3,7 +3,23 @@ h1 {
 }
 
 .square {
-  height: 200px;
-  width: 200px;
+  height: 20vh;
   border: 1px solid black;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

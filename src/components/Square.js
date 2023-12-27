@@ -1,10 +1,20 @@
-import React from "react"
+import React from "react";
 
-const Square = () => {
+const Square = ({ board, index, click, viewWidth, marginSide }) => {
   return (
     <>
-      <div className="square"></div>
+      <div
+        onClick={() => click(index)}
+        className="square"
+        style={{
+          width: `${viewWidth}vw`,
+          marginLeft: `${marginSide}vw`,
+          marginRight: `${marginSide}vw`,
+        }}
+      >
+        {board}
+      </div>
     </>
-  )
-}
-export default Square
+  );
+};
+export default Square;
